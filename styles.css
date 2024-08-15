@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e9760b;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #470c0c;
+    margin-bottom: 20px;
+}
+
+#initial-page, #player-page, #end-page {
+    margin-top: 50px;
+}
+
+#progress-bar {
+    width: 50%;
+    height: 20px;
+    vertical-align: middle;
+}
+
+#play-stop-button {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0df133;
+    border: none;
+    border-radius: 5px;
+    color: rgb(7, 4, 4);
+    transition: background-color 0.3s;
+}
+
+#play-stop-button:hover {
+    background-color: #3a07b1;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#time-display {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #360549;
+}
+
+#lyrics-display {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+#mic-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FF5722;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#mic-button:hover {
+    background-color: #E64A19;
+}
+#lyrics-display {
+    margin:auto;
+    width: 70%;
+    height: auto;
+    display:block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center; /* Centralizar o texto */
+    background-color: #043b29;
+    border-radius: 5px;
+}
+#play-button {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #0df1a5;
+    border: none;
+    border-radius: 5px;
+    color: rgb(7, 4, 4);
+    transition: background-color 0.3s;
+}
+#audio-file{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #0df133;
+    border: none;
+    border-radius: 5px;
+    color: rgb(7, 4, 4);
+    transition: background-color 0.3s;
+}
+#Stop-button{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f1730b;
+    border: none;
+    border-radius: 5px;
+    color: rgb(7, 4, 4);
+    transition: background-color 0.3s;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#stop-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #04250c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+#stop-button:hover{
+    background-color: #f44336;
+}
+#clear-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f01b0c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+#clear-button:hover {
+    background-color: #76fc09;
+}
+#save-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #086f7c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+#save-button:hover{
+    background-color: #09ee4e;
+}
+#result {
+    margin:auto;
+    width: 50%;
+    height:auto;
+    display:block;
+    padding: 10px;
+    font-size: 20px;
+    color: #05ee8d;
+    text-align: center; /* Centralizar o texto */
+    background-color: #010e09;
+    border-radius: 5px;
+}
+#microphone-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #077723;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+#microphone-button:hover {
+    background-color: #196be6;
+}
+#conteudo{
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: #0c0805;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    /* Estilizando o botão */
+ 
+    background-color: #063b08;
+    color: white;
+    padding: 10px;
+    margin: 0%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0%;
+    width: 250px;
+    height:  100%;
+    
+    
+}
+
+/* Efeito hover */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+

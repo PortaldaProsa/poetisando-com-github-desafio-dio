@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Áudio</title>
+    <link rel="stylesheet" href="styles.css">
+    <a href="mao-na-massa.html" class="button w-button"><h3>HOME</h3></a>
+</head>
+<body>
+    <div id="initial-page">
+        <h1>Projeto (desafio) </h1>
+        <h3>Esse projeto não se limita apenas em ouvir um áudio.<p>
+            A surpresa está em apertar o botão para ouvir.
+        </p> Quer ver o que acontece?</3>
+        <h1>Inserir Arquivo de Áudio</h1>
+        <input type="file" id="audio-file" accept="audio/*">
+        <button id="play-button">Tocar Música</button>
+
+        
+    
+    </div>
+
+    <div id="player-page" style="display: none;">
+        <h1>Reproduzindo...</h1>
+        <div id="controls">
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <button id="play-stop-button">⏸️</button> <!-- Botão de Play/Stop -->
+        </div>
+        <p id="time-display">0:00 / 0:00</p>
+       <textarea id="result" placeholder="A transcrição aparecerá aqui..."></textarea>
+       
+
+<!--<div id="lyrics-display">Texto da Música</div>-->
+        <button id="mic-button">🎤 Iniciar Transcrição</button> <!-- Botão de Microfone -->
+        <button id="microphone-button">🎤</button> <!--Botao segunda opção-->
+        <button id="stop-button">⏹️</button> <!-- Botão para parar-->
+        <button id="save-button">💾</button> <!-- Botão para salvar-->
+        <button id="clear-button">🗑️</button><!-- Botão para deletar-->
+        <h3>Enquanto ouve a sua música preferida, você pode falar e criar seus assuntos <p>
+        </p> e fazer a transcrição para texto.
+        <p>Aperte o botão microfone e veja suas palavras sendo transcritas,<p> salvando e editando seu texto como desejar.</p></h3>
+        
+    </div>
+    
+    </div>
+
+    <div id="end-page" style="display: none;">
+        <h1>A música terminou!</h1>
+        <p>Deseja ouvir novamente?</p>
+        <button id="yes-button">Sim</button>
+        <button id="no-button">Não</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
