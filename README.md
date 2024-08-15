@@ -7,7 +7,7 @@ Nos meados dos anos 80 comecei meus contatos com a programação, pois como mús
 E nos anos 90 já estava criando meu site Portal Poético, interagindo assim com a música e a poesia.
 <p>Hoje estou contribuindo com o meu primeiro projeto para o desafio.
 Esse projeto está além de um simples botão para inserir um arquivo de áudio.
-Foi pensado em algo para ajudar os poetas e pensadores.
+Foi pensado em algo para ajudar os poetas e pensadores.<p></p>
 Acesse o link para ver a página funcional.
   
 ## Portal da Prosa
