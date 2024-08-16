@@ -13,5 +13,7 @@ Acesse o link para ver a página funcional.
 ## Portal da Prosa
 https://portaldaprosa.com.br/  <P>
 PROJETO DESAFIO <P>
-https://codigoseprojetos.portaldaprosa.com.br/mao-na-massa.html
+https://codigoseprojetos.portaldaprosa.com.br/mao-na-massa.html<p>
+## Canal YouTube
+https://www.youtube.com/@portaloracao
 
