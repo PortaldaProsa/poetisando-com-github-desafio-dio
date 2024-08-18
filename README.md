@@ -17,5 +17,7 @@ PROJETO DESAFIO <P>
 https://meusprojetos.portaldaprosa.com.br/mao-na-massa.html<p>
 ## Canal YouTube
 https://www.youtube.com/@portaloracao<p>
-https://www.youtube.com/@canalcontandoashistorias
+https://www.youtube.com/@canalcontandoashistorias <p>
+## Plugins e VSTs
+https://www.youtube.com/@karaokevstseplugins <p>
 
